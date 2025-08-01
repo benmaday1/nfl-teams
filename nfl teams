@@ -1,1 +1,8 @@
 file:///Users/staceyygrill/Downloads/nfl-grid.html
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr); /* 16 logos per row */
+  gap: 10px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
